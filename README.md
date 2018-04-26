@@ -10,9 +10,25 @@ _A web app._
 
 ## Specifications
 
-* _The program returns ._
-  * _Example Input: _
-  * _Example Output: []_
+* _The program returns true if user enters a one letter palindrome._
+  * _Example Input: "a"_
+  * _Example Output: [true]_
+
+* _The program returns true if user enters a one word palindrome._
+  * _Example Input: "noon"_
+  * _Example Output: [true]_
+
+* _The program returns true if user enters a sentence which is true palindrome._
+  * _Example Input: "A but tuba."_
+  * _Example Output: [true]_
+
+* _The program returns false if user enters not a palindrome._
+  * _Example Input: "Not a Palindrome"_
+  * _Example Output: [false]_
+
+* _The program returns true if user enters a long sentence or text with lots of alphabetic and non alphabetic characters but which is true palindrome._
+  * _Example Input: 123Are we not pure? “No sir!” Panama’s moody Noriega brags. “It is garbage!” Irony dooms a man; a prisoner up to new era."_
+  * _Example Output: [true]_
 
 
 ## Setup/Installation Requirements
